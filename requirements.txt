@@ -1,4 +1,4 @@
 geopandas==0.13.2
 matplotlib==3.5.2
 unidecode
-matplotlib
+matplotlib==3.7.1
