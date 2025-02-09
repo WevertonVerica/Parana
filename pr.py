@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
+pip install unidecode
 from unidecode import unidecode
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
