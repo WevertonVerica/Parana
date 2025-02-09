@@ -9,7 +9,7 @@ from unidecode import unidecode
 st.title("Jogo de Adivinhação de Cidades do Paraná")
 
 # Carregar os dados
-@st.cache  # Ou @st.cache se estiver usando uma versão antiga
+@st.cache_date  # Ou @st.cache se estiver usando uma versão antiga
 def load_data():
     pr = gpd.read_file('PR_Municipios_2022.shp')  # Substitua pelo caminho correto do arquivo
     pr['cor'] = 0
