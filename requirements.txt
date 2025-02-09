@@ -1,6 +1,6 @@
 geopandas==0.13.2
 unidecode
-matplotlib==3.7.1
+matplotlib
 streamlit
 pandas
 shapely
